@@ -24,7 +24,7 @@ function [a_opt] = PbInversoCalor(R,xc,T,M,u0,dist,Nb,lambda0,lambda1,H,g,pert,h
 % Nb = Número de puntos sobre la frontera para la condición Dirichlet
 % lambda0 = Factor para ubicar las fuentes fuera de la bola.
 % lambda1 = Constante que aparece en la definición de las funciones
-% radiales f y F, relacionadas por ΔF = f.
+% radiales f y F, relacionadas por Lap(F) = f.
 % H = Función que describe la EDP para la que realizaremos la medición.
 % g = Función que describe las condiciones Dirichlet en la frontera.
 % pert = Porcentaje de ruido en la medición. Por ejemplo, pert = 1.e-2 es
