@@ -167,10 +167,8 @@ scatter(p_interior(1,:), p_interior(2,:), 10, 'b', 'filled');
 scatter(p_frontera(1,:), p_frontera(2,:), 30, 'r', 'filled');
 scatter(p_fuentes(1,:), p_fuentes(2,:), 50, 'm', 'x', 'LineWidth', 1.5);
 plot(x1_eq(theta), x2_eq(theta), 'k-', 'LineWidth', 1.5);
-xlabel('x_1');
-ylabel('x_2');
 legend('Interior','Frontera','Fuentes','Frontera real');
 axis equal; grid on; title('Distribución de puntos y fuentes');
-xlabel('x'); ylabel('y');
+xlabel('x_1'); ylabel('x_2');
 
 end
