@@ -159,7 +159,7 @@ title('Error absoluto');
 
 disp(['Error absoluto máximo: ',num2str(max(abs(U(:)-Ue(:))))]);
 
-% Gráficar de la distribución de los puntos y las fuentes en el dominio.
+% Gráfica de la distribución de los puntos y las fuentes en el dominio.
 
 figure(4);
 hold on;
